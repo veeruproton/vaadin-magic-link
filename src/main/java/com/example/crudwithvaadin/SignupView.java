@@ -7,7 +7,7 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import com.vaadin.flow.component.textfield.TextField;
 
-@Route("signup")
+@Route("/signup")
 @AnonymousAllowed
 public class SignupView extends VerticalLayout {
 
