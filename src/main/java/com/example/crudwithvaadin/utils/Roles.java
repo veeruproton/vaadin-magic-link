@@ -1,4 +1,4 @@
-package com.example.crudwithvaadin;
+package com.example.crudwithvaadin.utils;
 
 public class Roles {
 

@@ -1,5 +1,7 @@
 package com.example.crudwithvaadin;
 
+import com.example.crudwithvaadin.domain.Customer;
+import com.example.crudwithvaadin.repository.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

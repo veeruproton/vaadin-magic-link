@@ -3,6 +3,8 @@ package com.example.crudwithvaadin;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.crudwithvaadin.domain.Customer;
+import com.example.crudwithvaadin.repository.CustomerRepository;
 import jakarta.annotation.PostConstruct;
 
 import com.vaadin.flow.data.provider.ListDataProvider;
@@ -21,7 +23,8 @@ import org.mockito.Mockito;
 @SpringBootTest(classes = MainViewTests.Config.class, webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 public class MainViewTests {
 
-	@Autowired CustomerRepository repository;
+	@Autowired
+	CustomerRepository repository;
 
 	VaadinRequest vaadinRequest = Mockito.mock(VaadinRequest.class);
 

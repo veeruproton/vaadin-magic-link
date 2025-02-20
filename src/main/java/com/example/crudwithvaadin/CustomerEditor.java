@@ -1,5 +1,7 @@
 package com.example.crudwithvaadin;
 
+import com.example.crudwithvaadin.domain.Customer;
+import com.example.crudwithvaadin.repository.CustomerRepository;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.KeyNotifier;
 import com.vaadin.flow.component.button.Button;

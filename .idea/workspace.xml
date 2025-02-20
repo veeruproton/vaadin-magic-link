@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63cb2f5c-064e-4b27-8bff-8146356cf035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/MagicLinkOneTimeTokenGenerationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/MagicLinkOneTimeTokenGenerationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/SecurityConfig.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/CrudWithVaadinApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/CrudWithVaadinApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/CustomerEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/CustomerEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/MagicLinkOneTimeTokenGenerationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/utils/MagicLinkOneTimeTokenGenerationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/utils/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/SignupView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudwithvaadin/SignupView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/CrudWithVaadinApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/CrudWithVaadinApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/CustomerEditorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/CustomerEditorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/MainViewTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/crudwithvaadin/MainViewTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CrudWithVaadinApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;vaadin-passwordless&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/orestis/IdeaProjects/vaadin-magic-link/src/main/java/com/example/crudwithvaadin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CrudWithVaadinApplication.executor": "Run",
+    "git-widget-placeholder": "vaadin-passwordless",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/orestis/IdeaProjects/vaadin-magic-link/src/main/java/com/example/crudwithvaadin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -120,7 +130,10 @@
       <workItem from="1740054368513" duration="1257000" />
       <workItem from="1740055886476" duration="124000" />
       <workItem from="1740056328244" duration="1347000" />
-      <workItem from="1740058286144" duration="310000" />
+      <workItem from="1740058286144" duration="513000" />
+      <workItem from="1740060476062" duration="2750000" />
+      <workItem from="1740063271896" duration="79000" />
+      <workItem from="1740067731693" duration="8737000" />
     </task>
     <servers />
   </component>

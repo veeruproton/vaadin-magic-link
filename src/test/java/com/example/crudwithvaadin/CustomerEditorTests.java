@@ -3,6 +3,8 @@ package com.example.crudwithvaadin;
 import static org.mockito.ArgumentMatchers.argThat;
 import static org.mockito.BDDMockito.then;
 
+import com.example.crudwithvaadin.domain.Customer;
+import com.example.crudwithvaadin.repository.CustomerRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +19,8 @@ public class CustomerEditorTests {
 	private static final String FIRST_NAME = "Marcin";
 	private static final String LAST_NAME = "Grzejszczak";
 
-	@Mock CustomerRepository customerRepository;
+	@Mock
+	CustomerRepository customerRepository;
 	@InjectMocks CustomerEditor editor;
 	@Mock CustomerEditor.ChangeHandler changeHandler;
 

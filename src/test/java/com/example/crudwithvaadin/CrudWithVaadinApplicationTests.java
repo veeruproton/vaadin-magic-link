@@ -1,5 +1,6 @@
 package com.example.crudwithvaadin;
 
+import com.example.crudwithvaadin.repository.CustomerRepository;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
